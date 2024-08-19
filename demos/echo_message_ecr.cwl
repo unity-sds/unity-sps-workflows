@@ -6,12 +6,10 @@ arguments: [$(inputs.message)]
 
 hints:
   DockerRequirement:
-    dockerPull: $(inputs.ecr_uri)
+    dockerPull: placeholder
 
 inputs:
   message:
-    type: string
-  ecr_uri:
     type: string
 
 outputs:
