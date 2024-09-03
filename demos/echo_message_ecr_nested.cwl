@@ -7,8 +7,9 @@ inputs:
     type: string
 
 outputs:
-  the_output:
-    type: stdout
+  out:
+    type: File
+    outputSource: echo/the_output
 
 requirements:
   SubworkflowFeatureRequirement: {}
@@ -17,5 +18,5 @@ steps:
   echo:
     run: https://raw.githubusercontent.com/unity-sds/unity-sps-workflows/main/demos/echo_message.cwl
     in:
-      in_message: message
-    out: [out]
+      message: message
+    out: [the_output]
