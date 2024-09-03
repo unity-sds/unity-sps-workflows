@@ -14,5 +14,8 @@ requirements:
   SubworkflowFeatureRequirement: {}
 
 steps:
-  compile:
+  echo:
     run: https://raw.githubusercontent.com/unity-sds/unity-sps-workflows/main/demos/echo_message.cwl
+    in:
+      in_message: message
+    out: [out]
