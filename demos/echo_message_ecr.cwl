@@ -4,7 +4,7 @@ class: CommandLineTool
 baseCommand: echo
 arguments: [$(inputs.message)]
 requirements:
-  EnvVarRequirement
+  EnvVarRequirement:
     envDef:
       ENV_CONTAINER_REGISTRY: $(inputs.ecr_uri)
 
