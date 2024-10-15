@@ -12,6 +12,8 @@ requirements:
           data=`cat process.txt`
           echo "INFO [job stage_out] Data to stage out: \${data}"
           stage_out_data="\${data} --> staged out"
+          echo "ERROR [job stage_out] Error encountered"
+          exit 1
           echo \${stage_out_data} > stage_out.txt
 
 inputs:
