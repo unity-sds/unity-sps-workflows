@@ -23,7 +23,3 @@ outputs:
     type: File
     outputBinding:
       glob: stage_out.txt
-  stage_out_stdout:
-    type: stdout
-
-stdout: stage_out_stdout.txt

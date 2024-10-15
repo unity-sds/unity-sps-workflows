@@ -23,7 +23,3 @@ outputs:
     type: File
     outputBinding:
       glob: process.txt
-  process_stdout:
-    type: stdout
-
-stdout: process_stdout.txt

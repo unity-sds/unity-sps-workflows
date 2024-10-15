@@ -21,7 +21,3 @@ outputs:
     type: File
     outputBinding:
       glob: stage_in.txt
-  stage_in_stdout:
-    type: stdout
-
-stdout: stage_in_stdout.txt
