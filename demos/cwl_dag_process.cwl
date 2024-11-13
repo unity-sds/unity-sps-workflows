@@ -11,7 +11,8 @@ inputs:
     type: string
 
 outputs:
-  type:
+  output:
+    type:
       type: array
       items: File
     outputBinding:
