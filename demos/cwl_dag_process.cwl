@@ -1,8 +1,8 @@
 #!/usr/bin/env cwl-runner
 cwlVersion: v1.2
 class: CommandLineTool
-baseCommand: ls
-arguments: ["-lR", $(inputs.input.path)]
+baseCommand: cat
+arguments: ["$(inputs.input.path)/catalog.json"]
 
 inputs:
   input: Directory
