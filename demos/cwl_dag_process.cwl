@@ -2,7 +2,7 @@
 cwlVersion: v1.2
 class: CommandLineTool
 baseCommand: ls
-arguments: ["-l", $(inputs.input.path)]
+arguments: ["-lR", $(inputs.input.path)]
 
 inputs:
   input: Directory
