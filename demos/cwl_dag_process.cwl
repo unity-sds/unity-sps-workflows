@@ -9,3 +9,10 @@ inputs:
   summary_table_filename:
     default: summary_table.txt
     type: string
+
+outputs:
+  type:
+      type: array
+      items: File
+    outputBinding:
+      glob: "*"
