@@ -18,9 +18,6 @@ requirements:
       DOWNLOAD_RETRY_TIMES: '5'
 
       EDL_BASE_URL: 'https://urs.earthdata.nasa.gov/'
-      EDL_USERNAME: '/sps/processing/workflows/edl_username'
-      EDL_PASSWORD: '/sps/processing/workflows/edl_password'
-      EDL_PASSWORD_TYPE: 'PARAM_STORE'
 
       VERIFY_SSL: 'TRUE'
       STAC_AUTH_TYPE: 'NONE'
