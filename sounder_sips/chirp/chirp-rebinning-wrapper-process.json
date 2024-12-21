@@ -1,0 +1,121 @@
+{
+  "processDescription": {
+    "process": {
+      "id": "chirp",
+      "title": "CHIRP Rebinning",
+      "owsContext": {
+        "offering": {
+          "code": "http://www.opengis.net/eoc/applicationContext/cwl",
+          "content": {
+            "href": "https://raw.githubusercontent.com/unity-sds/unity-sps-workflows/devel/sounder_sips/chirp/chirp-rebinning-e2e-workflow-wrapper.cwl"
+          }
+        }
+      },
+      "abstract": "chirp",
+      "keywords": [],
+      "inputs": [
+        {
+          "id": "job_id",
+          "title": "job_id",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_processing_labels",
+          "title": "input_processing_labels",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_cmr_collection_name",
+          "title": "input_cmr_collection_name",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_cmr_search_start_time",
+          "title": "input_cmr_search_start_time",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_cmr_search_stop_time",
+          "title": "input_cmr_search_stop_time",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "output_collection_id",
+          "title": "output_collection_id",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "output_data_bucket",
+          "title": "output_data_bucket",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_daac_collection_shortname",
+          "title": "input_daac_collection_shortname",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        },
+        {
+          "id": "input_daac_collection_sns",
+          "title": "input_daac_collection_sns",
+          "formats": [
+            {
+              "mimeType": "text",
+              "default": true
+            }
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    "processVersion": "develop",
+    "jobControlOptions": ["async-execute"],
+    "outputTransmission": ["reference"]
+  },
+  "immediateDeployment": true,
+  "executionUnit": [
+    {
+      "href": "docker.registry/chirp:latest"
+    }
+  ],
+  "deploymentProfileName": "http://www.opengis.net/profiles/eoc/dockerizedApplication"
+}

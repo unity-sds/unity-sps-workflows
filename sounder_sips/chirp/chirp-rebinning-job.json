@@ -1,0 +1,32 @@
+{
+  "mode": "async",
+  "response": "document",
+  "inputs": [
+    {
+      "id": "input_cmr_collection_name",
+      "data": "C2011289787-GES_DISC"
+    },
+    {
+      "id": "input_cmr_search_start_time",
+      "data": "2016-08-22"
+    },
+    {
+      "id": "input_cmr_search_stop_time",
+      "data": "2016-09-06"
+    },
+     {
+      "id": "input_cmr_edl_user",
+      "data": "cmr_user"
+    },
+    {
+      "id": "input_cmr_edl_pass",
+      "data": "cmr_pass"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "output",
+      "transmissionMode": "reference"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+collection_id: L0_SNPP_ATMS_SCIENCE___1
+download_dir: atms_science
+provider_id: SNPP
+start_datetime: 2016-01-14T08:00:00Z
+stop_datetime: 2016-01-14T11:59:59Z
+
+staging_bucket: uds-dev-cumulus-sps
+dapa_api: https://1gp9st60gd.execute-api.us-west-2.amazonaws.com/dev
+client_id: 71g0c73jl77gsqhtlfg2ht388c
