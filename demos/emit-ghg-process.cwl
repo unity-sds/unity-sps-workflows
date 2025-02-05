@@ -35,7 +35,7 @@ outputs:
     type: File
 requirements:
   DockerRequirement:
-    dockerPull: adsunity/emit-ghg_mod_test:162f3fb9
+    dockerPull: adsunity/emit-ghg_mod_test:45b67efb
   InitialWorkDirRequirement:
     listing:
     - entry: $(inputs)
