@@ -1,7 +1,7 @@
 #!/usr/bin/env cwl-runner
 arguments:
 - -p
-- input_stac_collection_file
+- input_stac_catalog_dir
 - $(inputs.input.path)
 - -p
 - output_stac_catalog_dir
@@ -35,7 +35,7 @@ outputs:
     type: File
 requirements:
   DockerRequirement:
-    dockerPull: adsunity/emit-ghg_mod_test:45b67efb
+    dockerPull: adsunity/emit-ghg_mod_test:305e7fea
   InitialWorkDirRequirement:
     listing:
     - entry: $(inputs)
