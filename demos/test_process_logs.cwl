@@ -15,3 +15,7 @@ requirements:
           task_log.warning("Warning log")
           task_log.error("Error log")
           task_log.critical("Critical error")
+
+inputs: []
+
+outputs: []
