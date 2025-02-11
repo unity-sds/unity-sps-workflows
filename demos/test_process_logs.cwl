@@ -9,12 +9,18 @@ requirements:
       - entryname: process.py
         entry: |-
           import logging
-          task_log = logging.getLogger("airflow.task")
+          logging.getLogger().setLevel(logging.INFO)
+          logging.basicConfig(
+              format='%(asctime)s %(name)s %(levelname)s %(message)s',
+              datefmt='%Y-%m-%dT%H:%M:%S',
+              level=logging.INFO
+          )
+          task_log = logging.getLogger("container_log")
           task_log.info("Info log")
           task_log.debug("Debug log")
           task_log.warning("Warning log")
           task_log.error("Error log")
-          task_log.critical("Critical error")
+          task_log.critical("Critical log")
 
 inputs: []
 
