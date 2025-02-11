@@ -16,11 +16,11 @@ requirements:
               level=logging.INFO
           )
           task_log = logging.getLogger("container_log")
-          task_log.info("Info log")
-          task_log.debug("Debug log")
-          task_log.warning("Warning log")
-          task_log.error("Error log")
-          task_log.critical("Critical log")
+          task_log.info("This is an 'info' log")
+          task_log.debug("This is a 'debug' log")
+          task_log.warning("This is a 'warning' log")
+          task_log.error("This is an 'error' log")
+          task_log.critical("This is a 'critical' log")
 
 inputs: []
 
