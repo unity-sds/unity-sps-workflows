@@ -57,7 +57,7 @@ steps:
     out: [stage_in_download_dir]
 
   process:
-    run: tasks/process_d3.cwl
+    run: "https://raw.githubusercontent.com/asips/mdps-prototype/refs/heads/main/workflows/mvcm_l3/tasks/process_d3.cwl"
     in:
       input: stage_in/stage_in_download_dir
       collection_id: collection_id
