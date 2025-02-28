@@ -6,7 +6,7 @@ arguments: ["-l"]
 
 hints:
   DockerRequirement:
-    dockerPull: busybox
+    dockerPull: ubuntu
 
 inputs: []
 
