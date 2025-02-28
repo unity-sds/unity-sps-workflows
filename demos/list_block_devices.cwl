@@ -10,7 +10,4 @@ hints:
 
 inputs: []
 
-outputs:
-  the_output:
-    type: stdout
-stdout: lsblk_message.txt
+outputs: []
