@@ -12,12 +12,6 @@ requirements:
           lsblk
           echo "List mounted drives"
           df -a -T -h
-          "Install nvme-cli"
-          sudo yum install -y nvme-cli
-          echo "List NVME devices"
-          nvme list
-          echo "List NVME subsystems"
-          nvme list-subsys
 
 hints:
   DockerRequirement:
