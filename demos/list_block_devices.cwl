@@ -12,6 +12,8 @@ requirements:
           lsblk
           echo "List mounted drives"
           df -a -T -h
+          echo "List /data directory"
+          df -h /data
 
 hints:
   DockerRequirement:
