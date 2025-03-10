@@ -13,6 +13,7 @@ requirements:
           echo "List mounted drives"
           df -a -T -h
           echo "List /data directory"
+          mkdir /data
           df -h /data
 
 hints:
