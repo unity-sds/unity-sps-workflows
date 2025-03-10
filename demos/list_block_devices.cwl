@@ -12,6 +12,7 @@ requirements:
           lsblk
           echo "List mounted drives"
           df -a -T -h
+          sleep 600
           echo "List /data directory"
           df -h /data
 
