@@ -15,6 +15,7 @@ requirements:
           echo "List /data directory"
           mkdir /data
           df -h /data
+          sleep 900
 
 hints:
   DockerRequirement:
