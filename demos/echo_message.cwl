@@ -6,7 +6,7 @@ arguments: [$(inputs.message)]
 
 hints:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-sps/busybox
+    dockerPull: busybox
 
 inputs:
   message:
