@@ -32,8 +32,7 @@ outputs:
     type: File
 requirements:
   DockerRequirement:
-    # dockerPull: godwinshen/emit-ghg:bc61e769
-    dockerPull: 429178552491.dkr.ecr.us-west-2.amazonaws.com/unity/emit-ghg::bc61e769
+    dockerPull: godwinshen/emit-ghg:bc61e769
   InitialWorkDirRequirement:
     listing:
     - entry: $(inputs)
