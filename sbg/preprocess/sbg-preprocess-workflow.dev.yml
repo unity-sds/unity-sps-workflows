@@ -1,0 +1,22 @@
+input_processing_labels: ["lable1","label2"]
+
+
+input_cmr_stac: 'https://cmr.earthdata.nasa.gov/search/granules.stac?collection_concept_id=C2408009906-LPCLOUD&temporal[]=2023-08-10T03:41:03.000Z,2023-08-10T03:41:03.000Z'
+
+
+# U-DS config
+input_unity_dapa_client: "40c2s0ulbhp9i0fmaph3su9jch"
+input_unity_dapa_api: "https://d3vc8w9zcq658.cloudfront.net"
+
+
+#for chirp rebinning step
+# none -
+input_crid: "001"
+
+# For unity data upload step, unity catalog
+output_collection_id: "urn:nasa:unity:unity:dev:SBG-L1B_PRE___1"
+
+# throws error if 's3:// is used'
+output_data_bucket: "sps-dev-ds-storage"
+
+
