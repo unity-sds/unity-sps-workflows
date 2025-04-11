@@ -56,7 +56,7 @@ outputs:
     type: Directory
 requirements:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-data-services:7.12.2
+    dockerPull: ghcr.io/unity-sds/unity-data-services:9.11.1
   EnvVarRequirement:
     envDef:
     - envName: CLIENT_ID
