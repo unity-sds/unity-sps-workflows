@@ -5,7 +5,7 @@ $namespaces:
 $graph:
   - class: Workflow
     id: main
-    label: Workflow that executes the Sounder SIPS end-to-end chirp rebinngin workflow
+    label: Workflow that executes the Sounder SIPS end-to-end chirp rebinning workflow
 
     requirements:
       SubworkflowFeatureRequirement: {}
@@ -46,7 +46,7 @@ $graph:
 
     requirements:
       DockerRequirement:
-        dockerPull: ghcr.io/unity-sds/unity-data-services:6.4.3
+        dockerPull: ghcr.io/unity-sds/unity-data-services:9.11.1
       EnvVarRequirement:
         envDef:
           USERNAME: $(inputs.unity_username)

@@ -39,7 +39,7 @@ outputs:
     type: File
 requirements:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-data-services:6.4.3
+    dockerPull: ghcr.io/unity-sds/unity-data-services:9.11.1
   EnvVarRequirement:
     envDef:
       AWS_ACCESS_KEY_ID: $(inputs.aws_access_key_id)

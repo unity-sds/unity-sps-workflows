@@ -48,7 +48,7 @@ $graph:
     requirements:
       InlineJavascriptRequirement: {}
       DockerRequirement:
-        dockerPull: ghcr.io/unity-sds/unity-data-services:5.2.1
+        dockerPull: ghcr.io/unity-sds/unity-data-services:9.11.1
       EnvVarRequirement:
         envDef:
           GRANULES_SEARCH_DOMAIN: 'CMR'
