@@ -5,7 +5,7 @@ baseCommand: ["DOWNLOAD"]
 
 requirements:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-data-services:9.1.0
+    dockerPull: ghcr.io/unity-sds/unity-data-services:9.11.1
   NetworkAccess:
     networkAccess: true
   EnvVarRequirement:
@@ -30,6 +30,9 @@ inputs:
   download_dir:
     type: string
   stac_json:
+    type: string
+  log_level:
+    default: '20'
     type: string
 
 outputs:
