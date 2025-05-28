@@ -5,7 +5,7 @@ baseCommand: ["UPLOAD"]
 
 requirements:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-data-services:9.1.0
+    dockerPull: ghcr.io/unity-sds/unity-data-services:9.12.0
   NetworkAccess:
     networkAccess: true
   InitialWorkDirRequirement:
