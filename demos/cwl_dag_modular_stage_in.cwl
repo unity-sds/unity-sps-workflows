@@ -5,7 +5,7 @@ baseCommand: ["DOWNLOAD"]
 
 requirements:
   DockerRequirement:
-    dockerPull: ghcr.io/unity-sds/unity-data-services:9.4.0
+    dockerPull: ghcr.io/unity-sds/unity-data-services:9.15.1
   NetworkAccess:
     networkAccess: true
   EnvVarRequirement:
